@@ -1,12 +1,12 @@
 ## Description
 
-Documentation for the [(bio-)SAXS instrument](https://biochimie.umontreal.ca/plateformes-scientifiques-bmm/biologie-structurale/biosaxs/) of the [Structural Biology platform](https://biochimie.umontreal.ca/plateformes-scientifiques-bmm/biologie-structurale/) located in the [department of biochemistry and molecular medicine](https://biochimie.umontreal.ca) of the [Université de Montréal](https://biochimie.umontreal.ca/).
+Documentation for the [(bio-)NMR instrument](https://biochimie.umontreal.ca/en/scientific-platforms-bmm/structural-biology/biomolecular-nmr/) of the [Structural Biology platform](https://biochimie.umontreal.ca/en/plateformes-scientifiques-bmm/biologie-structurale/) located in the [department of biochemistry and molecular medicine](https://biochimie.umontreal.ca/en) of the [Université de Montréal](https://umontreal.ca/en).
 
 Tutorials and howtos are presented in this documentation, formatted using [MkDocs](https://www.mkdocs.org/), and the theme [Cinder](https://github.com/chrissimpkins/cinder).
 
-To access the site: http://airen.bcm.umontreal.ca/biostruct/SAXS_tutorials/
+To access the site: http://airen.bcm.umontreal.ca/biostruct/NMR_tutorials/
 
-![Screenshot of the front page](https://github.com/BioStruct-UdeM/SAXS_tutorials/raw/master/docs/img/screen_shots/site_front_page_screenshot.png)
+![Screenshot of the front page](https://github.com/BioStruct-UdeM/NMR_tutorials/raw/master/docs/img/site_front_page_screenshot.png)
 
 
 ## How to serve locally
@@ -20,6 +20,7 @@ This will install the following (and associated requirements):
 - MkDocs (`mkdocs`)
 - MkDocs Cinder theme (`mkdocs-cinder`)
 - Math extension for Python-Markdown (`python-markdown-math`)
+- MkDocs Bootstrap tables plugin (`mkdocs-bootstrap-tables-plugin`)
 
 Then serve the website lcoally with MkDocs:
 
@@ -39,6 +40,7 @@ This will install the following (and associated requirements):
 - MkDocs (`mkdocs`)
 - MkDocs Cinder theme (`mkdocs-cinder`)
 - Math extension for Python-Markdown (`python-markdown-math`)
+- MkDocs Bootstrap tables plugin (`mkdocs-bootstrap-tables-plugin`)
 
 Then build the website with MkDocs
 
