@@ -1,3 +1,4 @@
 mkdocs
 mkdocs-cinder
 python-markdown-math
+mkdocs-bootstrap-tables-plugin
