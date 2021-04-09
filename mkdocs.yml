@@ -1,0 +1,38 @@
+
+site_name: Analyzing NMR data
+site_description: Analyzing NMR data
+site_author: Normand Cyr
+
+site_url: http://airen.bcm.umontreal.ca/biostruct/NMR_tutorials/
+repo_url: https://github.com/BioStruct-UdeM/NMR_tutorials
+
+theme:
+  name: cinder
+  custom_dir: custom_theme/
+
+nav:
+  - Instrumentation:
+    - Overview: overview.md
+    - Software: software.md
+  - Running a NMR experiment:
+    - Sample requirements: sample_requirements.md
+    - Basic 1D: basic_1D.md
+    - 2D 15N-HSQC: 15N-HSQC.md
+  - Data processing:
+    - Basic data processing: basic_data_processing.md
+  - Data visualization:
+    - CcpNmr installation and first steps: ccpnmr.md
+    - Opening a spectrum: ccpnmr_open_spectrum.md
+    - Picking peaks: ccpnmr_pick_peaks.md
+    - Setting up a project: project_setup.md
+
+extra_css:
+    - css/extra.css
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+markdown_extensions:
+  - mdx_math
+  - fenced_code
+  - meta
